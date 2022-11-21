@@ -33,6 +33,9 @@ dependencies {
     runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.11.2'
     // security
     implementation 'org.springframework.boot:spring-boot-starter-security'
+    //swagger
+    implementation 'io.springfox:springfox-swagger-ui:2.10.0'
+
 
 }
 
